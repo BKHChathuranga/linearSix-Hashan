@@ -28,8 +28,3 @@ npm start
 The SQL script has been included in the `linearSix` script file.
 
 ---
-
-### Additional Information
-For more details, please refer to the individual files and folders mentioned above.
-```
-
