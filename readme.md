@@ -36,9 +36,3 @@ The SQL script has been included in the `linearSix` script file.
 For more details, please refer to the individual files and folders mentioned above.
 ```
 
-To ensure proper styling:
-1. **Headings**: Use `#`, `##`, `###`, etc., for different levels of headings.
-2. **Bold text**: Use `**` for bolding text.
-3. **Inline code**: Use backticks `` ` `` for inline code.
-4. **Code blocks**: Use triple backticks ``` for code blocks with language specification for syntax highlighting.
-
