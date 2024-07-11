@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Google Calendar</title>
+  <link rel="stylesheet" href="../css/app.css">
+</head>
+
+<body>
+  <div class="form">
+    <form action="http://localhost:3000/" method="POST">
+      <label for="calendarId">Google Calendar ID:</label>
+      <input name="calendarId" type="text" placeholder="Enter Google Calendar ID" required>
+
+      <label for="timeMin">Start Time (ISO 8601):</label>
+      <input name="timeMin" type="datetime-local" required>
+
+      <label for="timeMax">End Time (ISO 8601):</label>
+      <input name="timeMax" type="datetime-local" required>
+
+      <input type="submit" value="Get Busy Intervals">
+    </form>
+  </div>
+  <hr>
+</body>
+
+</html>

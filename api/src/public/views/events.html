@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Busy Intervals</title>
+  <link rel="stylesheet" href="../css/app.css">
+</head>
+
+<body>
+  <div class="form">
+    <h1>Busy Intervals</h1>
+    <% if (busyIntervals && busyIntervals.length> 0) { %>
+      <ul>
+        <% busyIntervals.forEach(interval=> { %>
+          <li>
+            <%= interval.start %> - <%= interval.end %>
+          </li>
+          <% }); %>
+      </ul>
+      <% } else { %>
+        <p>No busy intervals found for the given time period.</p>
+        <% } %>
+          <a href="/">Back</a>
+  </div>
+</body>
+
+</html>
